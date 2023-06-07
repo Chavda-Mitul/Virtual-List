@@ -1,7 +1,8 @@
+import VirtualList1 from "./component/VirtualList1";
 function App() {
   return (
     <>
-      <h1>heloo</h1>
+      <VirtualList1 />
     </>
   );
 }
