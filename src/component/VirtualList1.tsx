@@ -1,5 +1,6 @@
 import List from "rc-virtual-list";
 import data from "../data.json";
+import Element from "./Element";
 
 function VirtualList1() {
   return (
@@ -11,7 +12,7 @@ function VirtualList1() {
         margin: "30px auto",
       }}
     >
-      <List data={data} height={600} itemHeight={40} itemKey="id">
+      <List data={data} height={600} itemHeight={0} itemKey="id">
         {(obj, idx) => (
           <div key={idx}>
             <h3>Name: {obj.name}</h3>
