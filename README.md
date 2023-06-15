@@ -1,6 +1,7 @@
 # Virtual-List
 
-[![Video Demo](path/to/video.png)](./react-performance.mp4)
+[![Video Demo]](./react-performance.mp4)
+
 
 ## Overview
 
