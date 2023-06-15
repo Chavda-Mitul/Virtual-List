@@ -16,8 +16,6 @@ function VirtualList1() {
         {(obj, idx) => (
           <div key={idx}>
             <h3>Name: {obj.name}</h3>
-            <p>Country: {obj.country}</p>
-            <p>Email: {obj.email}</p>
           </div>
         )}
       </List>
